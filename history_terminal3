@@ -1,5 +1,5 @@
    68  head wilders.csv 
-   69  grep PHP wilders.csv > php_france_2019.csv
+   69  grep "France,2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
    70  vi php_france_2019.csv 
    71  grep Javascript wilders.csv > temp1
    72  grep Toulouse temp1 > javascript_biarritz_toulouse.csv
