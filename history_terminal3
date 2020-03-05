@@ -1,0 +1,18 @@
+   68  head wilders.csv 
+   69  grep PHP wilders.csv > php_france_2019.csv
+   70  vi php_france_2019.csv 
+   71  grep Javascript wilders.csv > temp1
+   72  grep Toulouse temp1 > javascript_biarritz_toulouse.csv
+   73  grep Biarritz temp1 >> javascript_biarritz_toulouse.csv 
+   74  vi javascript_biarritz_toulouse.csv 
+   75  vi temps1
+   76  vi temp1 
+   77  grep JavaScript wilders.csv > temp1
+   78  grep Toulouse temp1 > javascript_biarritz_toulouse.csv
+   79  grep Biarritz temp1 >> javascript_biarritz_toulouse.csv 
+   80  vi javascript_biarritz_toulouse.csv 
+   81  history
+   82  tail --help
+   83  history
+   84  tail -n 18 history > history_terminal3
+   85  history > history_file
